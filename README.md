@@ -1,75 +1,33 @@
-# Nuxt Minimal Starter
+# Login App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a simple login app built with Nuxt 3, Vue 3, and TailwindCSS. The app includes a login page with authentication logic, styled using TailwindCSS, and can be easily deployed to Vercel.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Login page with basic email and password validation.
+- Responsive design with TailwindCSS.
+- Authentication via mock data (can be replaced with real backend logic).
+- Secure routing: Redirects to login page if the user is not authenticated.
 
-```bash
-# npm
-npm install
+## Tech Stack
 
-# pnpm
-pnpm install
+- **Nuxt 3**: A powerful framework based on Vue 3 for building server-side rendered applications.
+- **Vue 3**: The progressive JavaScript framework for building UIs.
+- **TailwindCSS**: A utility-first CSS framework for building modern, responsive designs.
+- **Axios**: Promise-based HTTP client for making API requests (used for mock authentication).
 
-# yarn
-yarn install
+## Project Setup
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/login-app.git
+   cd login-app
+   ```
+2. Install dependencies
+    ```bash
+    npm install
+    ```
+3. Run the development server
+    ```bash
+    npm run dev
+    ```
