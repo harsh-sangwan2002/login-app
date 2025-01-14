@@ -2,12 +2,19 @@
 
 This is a simple login app built with Nuxt 3, Vue 3, and TailwindCSS. The app includes a login page with authentication logic, styled using TailwindCSS, and can be easily deployed to Vercel.
 
+## Live Demo
+
+Check out the live demo of this app [here](https://harsh-login-app.vercel.app/).
+
 ## Features
 
 - Login page with basic email and password validation.
 - Responsive design with TailwindCSS.
 - Authentication via mock data (can be replaced with real backend logic).
 - Secure routing: Redirects to login page if the user is not authenticated.
+
+## Usage
+- Please check and read the pages/login.vue to login
 
 ## Tech Stack
 
@@ -24,10 +31,10 @@ This is a simple login app built with Nuxt 3, Vue 3, and TailwindCSS. The app in
    cd login-app
    ```
 2. Install dependencies
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 3. Run the development server
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
